@@ -5,9 +5,20 @@
 .ipynb_checkpoints
 notebooks/.ipynb_checkpoints/
 
-# Data files
+# Data (allow everything except audio)
 data/audio/
-data/**/*.zip
+data/audio/**
+
+# (Optional) also ignore common audio extensions anywhere, in case they appear outside data/audio
+*.wav
+*.mp3
+*.m4a
+*.aac
+*.flac
+*.ogg
+*.wma
+*.aiff
+*.aif
 
 # Environments
 .env
@@ -16,3 +27,8 @@ env/
 venv/
 __pycache__/
 *.pyc
+
+# LaTeX
+report/
+# LaTeX source (ignore .tex, keep PDF)
+final-report.tex
