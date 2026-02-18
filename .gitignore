@@ -6,7 +6,8 @@
 notebooks/.ipynb_checkpoints/
 
 # Data files
-data/
+data/audio/
+data/*.zip
 
 # Environments
 .env
