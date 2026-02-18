@@ -1,5 +1,5 @@
 # macOS
-.DS_Store
+**/.DS_Store
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -7,7 +7,7 @@ notebooks/.ipynb_checkpoints/
 
 # Data files
 data/audio/
-data/*.zip
+data/**/*.zip
 
 # Environments
 .env
