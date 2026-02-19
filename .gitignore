@@ -29,6 +29,6 @@ __pycache__/
 *.pyc
 
 # LaTeX
-report/
-# LaTeX source (ignore .tex, keep PDF)
-final-report.tex
+report/*
+# ...but keep the PDF
+!report/final-report.pdf
